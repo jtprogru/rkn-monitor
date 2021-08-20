@@ -13,7 +13,7 @@ Util for monitoring IP in RKN.
 - `https://api.reserve-rbl.ru/api/v2/ips/csv` – список IP-адресов, находящихся сейчас в реестре в формате CSV;
 - `https://api.reserve-rbl.ru/api/v2/current/json` – Выдача содержания реестра на текущий момент в формате JSON;
 - `https://api.reserve-rbl.ru/api/v2/current/csv` – Выдача содержания реестра на текущий момент в формате CSV;
-- https://api.reserve-rbl.ru/api/v3/current/csv` – Выдача содержания реестра на текущий момент в формате CSV;
+- `https://api.reserve-rbl.ru/api/v3/current/csv` – Выдача содержания реестра на текущий момент в формате CSV;
 - `https://api.reserve-rbl.ru/api/v3/ips-only/json` – Возвращает список IP-адресов, напрямую заблокированных Роскомнадзором (в формате JSON);
 
 Так же присутствует API для поиска. Вы можете экспортировать результат поиска в формате CSV. Для экспорта результатов поиска в CSV, добавьте дополнительный параметр export, принимающий значение records или distributors в URL, как показано ниже.
