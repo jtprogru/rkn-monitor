@@ -22,3 +22,10 @@ Util for monitoring IP in RKN.
 - `https://reestr.rublacklist.net/export/?q=example.com&export=distributors` – Ограничить выдачу реестром ОРИ;
 
 **Важно!** На экспорт результатов поиска установлено ограничение — не более 50 запросов в сутки с одного IP.
+
+Как запускать:
+
+```shell
+> python rkn-checker.py check-ipaddr --ipaddr 23.105.247.220
+{'status': 'FREE', 'ipaddr': '23.105.247.220'}
+```
